@@ -1,0 +1,32 @@
+apply plugin: "java"
+apply plugin: "eclipse"
+group = "com.newrelic.fit"
+
+ext {
+   archiveVersion = "5.13.0"
+   newrelicVersion="5.13.0"
+   releaseVersion= "5.13.0"
+   project.version="1.0.0"
+}
+
+
+repositories { mavenCentral() }
+dependencies {
+   compile "com.newrelic.agent.java:newrelic-agent:${newrelicVersion}"
+   compile "com.newrelic.agent.java:newrelic-api:${newrelicVersion}"
+}
+
+compileJava {
+   sourceCompatibility = 1.8
+   targetCompatibility = 1.8
+}
+
+jar {
+   // Instrumentation Modules must have a manifest that names the module with a namespaced name.
+   // The project"s name should match the name and version of the module you"re instrumenting.
+   // Customize the commented lines and replace the uncommented ones.
+   manifest {
+      attributes "Implementation-Title": project.group + "." + project.name
+      attributes "Implementation-Vendor": project.group, "Implementation-Version": archiveVersion
+   }
+}
