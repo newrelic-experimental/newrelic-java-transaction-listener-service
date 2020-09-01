@@ -23,9 +23,9 @@ The added labels appear in every Transaction Trace as user attributes.
 
 ## Support
 
-New Relic hosts and moderates an online forum where customers can interact with New Relic employees as well as other customers to get help and share best practices. Like all official New Relic open source projects, there's a related Community topic in the New Relic Explorers Hub. You can find this project's topic/threads here:
+New Relic has open-sourced this project. This project is provided AS-IS WITHOUT WARRANTY OR SUPPORT, although you can report issues and contribute to the project here on GitHub.
 
->Add the url for the support thread here
+_Please do not report issues with this software to New Relic Global Technical Support._
 
 ## Contributing
 We encourage your contributions to improve [Transaction Listener Service]! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
