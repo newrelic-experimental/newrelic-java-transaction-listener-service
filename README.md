@@ -1,6 +1,6 @@
 [![Experimental Project header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#experimental)
 
-# Transaction Listener Service 
+# New Relic Java Agent - Transaction Listener Service 
 
 This lightweight Java Agent extension listens for Java Agent `configChanged` and `transactionFinished` events.
 
