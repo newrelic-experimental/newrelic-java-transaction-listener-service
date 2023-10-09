@@ -31,7 +31,7 @@ jobs:
 
       - name: Build with Gradle and verifyInstrumentation
         run: |
-          ./gradle clean build install verifyInstrumentation
+          ./gradlew clean build install verifyInstrumentation
 
       - name: Identify Release Type
         id: define_release_type
