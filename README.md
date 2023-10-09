@@ -18,9 +18,12 @@ The added labels appear in every Transaction Trace as user attributes.
 
 ## Installation
 
-1. Build the project: `gradle clean build`
-2. Place the resulting `build/libs/TransactionListenerService.jar` file in the [Java Agent's extensions directory](https://docs.newrelic.com/docs/agents/java-agent/instrumentation/extension-additional-instrumentation-modules)
-3. Restart the Java Agent
+To install:
+
+1. Download the latest release jar files.
+2. In the New Relic Java directory (the one containing newrelic.jar), create a directory named extensions if it does not already exist.
+3. Copy the downloaded jars into the extensions directory.
+4. Restart the application.
 
 ## Support
 
