@@ -1,3 +1,9 @@
+## Version: [v1.0.2](https://github.com/newrelic-experimental/newrelic-java-transaction-listener-service/releases/tag/v1.0.2) | Created: 2023-10-09
+### Build Upgrades
+- Updated vendor title
+- Migrated to new project template
+
+
 ## Installation
 
 To install:
